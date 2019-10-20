@@ -1,0 +1,191 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px){
+	.row.no-gutter .col-md-2 {
+		width: 20%!important;
+	}
+	.single-team p::after{
+		left: 40%;
+		bottom: 170px;
+	}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#myNavbar ul li {
+		padding: 38px 9px 31px;
+	}
+	.single-team p::after {
+		bottom: 170px;
+		left: 37%;
+	}
+	.member-social-icon i {
+		padding: 20px 5px;
+		font-size: 18px;
+	}
+	.price-bottom a {
+		width: 183px;
+		line-height: 30px;
+		margin-top: 18x;
+	}
+	.footer-social i {
+		padding: 12px 2px;
+		font-size: 12px;
+	}
+	.footer-p {
+		padding: 0;
+		font-size: 14px;
+	}
+	.list-date{
+		float: none;
+	}
+	input[type="text"], input[type="tel"], input[type="email"] {
+		height: 40px;
+		margin-bottom: 20px;
+		margin-left: -43px;
+		color: black;
+		border-radius: 20px;
+	}
+	.btn_3{
+		height: 77px;
+	}
+	.modal{
+		overflow: scroll;
+	}
+	.window_3{
+	    line-height: 24px;
+    	padding: 8px;
+    	height: 51px;
+	}
+	.bonus p {
+		text-align: right;
+		font-size: 10px;
+		text-align: justify;
+		color: black;
+		margin-top: -34px;
+		margin-left: 40px;
+	}
+	.text {
+		font-size: 20px;
+		text-align: justify;
+		color: #fff;
+	}
+	.modal__cross {
+		position: absolute;
+		right: 6px;
+		top: 32px;
+		width: 32px;
+		height: 32px;
+		opacity: 0.3;
+	}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	header .navbar {
+		margin-bottom: 0;
+		height: 25%;
+	}
+	.home-text h1 {
+		font-size: 80px;
+	}
+	.single-team{
+		text-align: center;
+	}
+	.list-date{
+		float: none;
+	}
+	.latest-news::after {
+		left: 0;
+	}
+	.single-team p::after {
+		left: 40%;
+		bottom: 174px;
+	}
+	#myNavbar ul li {
+		padding: 0px;
+		text-transform: uppercase;
+		font-size: 10px;
+		text-align: right;
+		padding-right: 10px;
+	}
+	.carousel-indicators li.active{
+		height: 10px;
+		width: 44px;
+	}
+	.carousel-indicators li {
+		width: 44px;
+		height: 8px;
+	}
+	.text {
+		font-size: 11px;
+		text-align: justify;
+		color: #fff;
+	}
+	.bonus__plus {
+		padding: 7px;
+		text-align: center;
+		color: red;
+		text-shadow: 0 0 10px rgba(250, 193, 6, 0.897);
+		margin-top: 75px;
+	}
+	.bonus p {
+		text-align: right;
+		font-size: 9px;
+		text-align: justify;
+		color: black;
+		margin-top: -12px;
+		margin-left: 40px;
+	}
+	.section-heading p {
+		padding: 30px 0;
+		font-size: 14px;
+		color: #fff;
+		line-height: 16px;
+	}
+	.bonus{
+		display: none;
+
+	}
+	.sing{
+		padding: 0px;
+	}
+	input[type="text"], input[type="tel"], input[type="email"] {
+		height: 31px;
+		margin-bottom: 20px;
+	    margin-left: -45px;
+		color: black;
+		border-radius: 20px;
+	}
+	.modal{
+		overflow: scroll;
+	}
+	.modal-title{
+	margin-right:0px;
+    text-align: justify;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 8px;
+}
+.modal__cross {
+    position: absolute;
+    right: 6px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.modal.active, .overlay.active {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    border: 1px solid red;
+    box-shadow: 0 0 80px rgba(255, 11, 11, 0.5);
+	max-height: 420px;
+	font-size: 7px;
+	z-index: 100;
+}
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
